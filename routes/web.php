@@ -12,6 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard.dashboard');
+    return view('pages.dashboard.main');
 });
 
+Route::get('/about', function () {
+    return view('pages.about.main');
+});
+
+Route::get('/projects', function () {
+    return view('pages.projects.main');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact.main');
+});
