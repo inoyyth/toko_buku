@@ -80,3 +80,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 {{ Html::script('js/magazine/owl.carousel.min.js') }}
 {{ Html::script('js/magazine/mail-script.js') }}
 {{ Html::script('js/magazine/main.js') }}
+
+<script>
+    $(document).ready(function() {
+		console.log('page loaded');
+	});
+</script>

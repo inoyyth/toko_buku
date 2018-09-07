@@ -11,7 +11,7 @@
 <!-- meta character set -->
 <meta charset="UTF-8">
 <!-- Site Title -->
-<title>Bhinneka Web</title>
+<title>@yield('title', 'bhinnekaweb.com')</title>
 <!--<link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">-->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 {{ Html::style('css/magazine/linearicons.css') }}

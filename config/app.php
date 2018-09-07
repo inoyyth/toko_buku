@@ -177,6 +177,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        'JD\Cloudder\CloudderServiceProvider',
+        Ixudra\Curl\CurlServiceProvider::class,
 
     ],
 
@@ -228,6 +230,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Illuminate\Html\FormFacade::class,
         'Html' => Illuminate\Html\HtmlFacade::class,
+        'Cloudder' => 'JD\Cloudder\Facades\Cloudder',
+        'Curl' => Ixudra\Curl\Facades\Curl::class,
 
     ],
 
